@@ -32,7 +32,7 @@ body {
   align-items: center;
 }
 
-/* QUESTION/TIMER/LEFT SECTION */
+/* QUESTION/LEFT SECTION */
 .question-section {
   width: 100%;
   position: relative;
@@ -43,11 +43,14 @@ body {
 }
 
 .question-count span {
-  font-size: 28px;
+  color: red;
+  font-size: 21px;
 }
 
 .question-text {
-  margin-bottom: 12px;
+  font-size: 22px;
+  margin-top: 53px;
+  margin-bottom: 23px;
 }
 
 .timer-text {
@@ -80,14 +83,6 @@ button {
   align-items: center;
   border: 5px solid #234668;
   cursor: pointer;
-}
-
-.correct {
-  background-color: #2f922f;
-}
-
-.incorrect {
-  background-color: #ff3333;
 }
 
 button:hover {
